@@ -1,0 +1,189 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+.tanyaa {
+  width: 30em;
+}
+
+.johnn {
+  width: 30em;
+}
+
+#slides-2 {
+  margin: 3em 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#slides-2 {
+  display: none;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#slides-1 {
+  margin: 3em 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow {
+  position: relative;
+  z-index: 2;
+  left: 12.5em;
+  top: -1.5em;
+  display: flex;
+  gap: 2em;
+  background-color: white;
+  width: 5em;
+  height: 2em;
+  border-radius: 3em;
+  padding: 0.5em 0;
+  padding-left: 1em;
+}
+
+.arrow img {
+  width: 1em;
+  height: 1.5em;
+}
+
+section.hero {
+  background-size: cover;
+  background-position-x: -2em;
+  background-repeat: no-repeat;
+  background-image: url(../images/pattern-bg.svg);
+}
+
+section.introduce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 8.5em;
+  margin-top: 5em;
+  background-image: url(../images/pattern-quotes.svg);
+  background-repeat: no-repeat;
+  background-size: 5em;
+  background-position-x: 14.5em;
+}
+
+section.introduce p {
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.career {
+  margin-top: -2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.career h3 {
+  font-size: 1.5rem;
+}
+
+.career span {
+  color: gray;
+  margin-left: 0.5em;
+  font-size: 1.5rem;
+}
+
+.slide2 section.introduce .career {
+  margin-left: 2em;
+}
+
+.slide2 section.introduce .career span {
+  margin-left: -2.5em;
+}
+
+.tanya {
+  position: relative;
+  z-index: 2;
+  left: 18em;
+  top: 5em;
+}
+
+.john {
+  position: relative;
+  z-index: 2;
+  left: 18em;
+  top: 5em;
+}
+
+footer {
+  height: 10em;
+  width: 50em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/pattern-curve.svg);
+}
+
+@media only screen and (min-width: 900px) {
+  #slides-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15em;
+  }
+
+  section.introduce p {
+    text-align: start;
+  }
+
+  section.introduce {
+    background-position-x: 5em;
+  }
+
+  .career {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+  }
+
+  .career span {
+    margin-top: 1em;
+  }
+
+  #slides-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+  }
+
+  footer {
+    margin-top: 23em;
+    margin-left: -10em;
+  }
+
+  .tanyaa {
+    width: 40em;
+    margin-top: -20em;
+  }
+
+  .johnn {
+    width: 40em;
+    margin-top: -20em;
+  }
+}
+
+.prev {
+  cursor: pointer;
+}
+
+.next {
+  cursor: pointer;
+}
