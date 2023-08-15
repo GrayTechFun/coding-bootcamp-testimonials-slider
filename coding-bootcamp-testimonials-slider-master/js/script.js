@@ -1,5 +1,5 @@
-const slide1 = document.querySelector(".slide1");
-const slide2 = document.querySelector(".slide2");
+const slide1 = document.querySelector(".testinomial-one");
+const slide2 = document.querySelector(".testinomial-second");
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 const prev2 = document.querySelector(".prev2");
